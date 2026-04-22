@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@theme {
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --color-primary: #D32F2F;
+  --color-secondary: #2C3E50;
+  --color-bg-custom: #F4F7F6;
+  --color-border-custom: #E0E4E8;
+  --color-accent-custom: #E8F0FE;
+  --color-price: #2E7D32;
+  --color-amazon: #F3D078;
+  --color-amazon-border: #A88734;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-custom text-[#333333] font-sans;
+  }
+  h1 {
+    @apply text-secondary font-bold;
+  }
+}
+
+:root {
+    --background: oklch(0.98 0.01 180); /* Matching #F4F7F6 roughly */
+    --foreground: oklch(0.2 0 0);
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0.2 0 0);
+    --popover: oklch(1 0 0);
+    --popover-foreground: oklch(0.2 0 0);
+    --primary: oklch(0.5 0.2 25); /* Matching #D32F2F roughly */
+    --primary-foreground: oklch(1 0 0);
+    --secondary: oklch(0.3 0.05 240); /* Matching #2C3E50 roughly */
+    --secondary-foreground: oklch(1 0 0);
+    --muted: oklch(0.95 0 0);
+    --muted-foreground: oklch(0.4 0 0);
+    --accent: oklch(0.95 0.02 240); /* Matching #E8F0FE roughly */
+    --accent-foreground: oklch(0.3 0.05 240);
+    --destructive: oklch(0.577 0.245 27.325);
+    --border: oklch(0.9 0 0);
+    --input: oklch(0.9 0 0);
+    --ring: oklch(0.5 0.2 25);
+    --radius: 8px;
+}
