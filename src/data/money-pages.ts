@@ -18,7 +18,7 @@ export const MONEY_PAGES: Record<string, MoneyPageData> = {
     lastUpdated: '2024-04-15',
     summary: 'For most home users, a targeted panel under $300 provides the perfect balance of therapeutic power and affordability. We have tested the top-selling units for irradiance and build quality.',
     featured: true,
-    productIds: ['hooga-hg300', 'bestqool-pro300', 'hi-red-300', 'serfory-panel'],
+    productIds: ['hooga-hg300', 'bestqool-pro300', 'platinumled-biomax300', 'dgyao-60led'],
     buyingGuide: `Choosing a budget panel doesn't mean you should sacrifice quality. Focus on these three metrics: 
     1. **Irradiance**: Minimum 80 mW/cm² at 6 inches.
     2. **EMF Shielding**: Ensure low EMF at the treatment distance.
@@ -34,7 +34,7 @@ export const MONEY_PAGES: Record<string, MoneyPageData> = {
     lastUpdated: '2024-04-20',
     summary: 'If you want deeper penetration and larger coverage for muscle recovery or professional skin results, these sub-$500 panels are the gold standard.',
     featured: true,
-    productIds: ['mitored-mitopro-300', 'rogue-orbital', 'hi-red-300'],
+    productIds: ['mitored-mitopro-300', 'hooga-hg1500', 'platinumled-biomax300'],
     buyingGuide: `At the $500 price point, you should expect:
     - **Dual Chip LEDs**: 660nm and 850nm occurring in every lens.
     - **Modular Capability**: The ability to snap multiple panels together.
