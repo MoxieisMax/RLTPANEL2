@@ -20,7 +20,7 @@ export default function Sidebar() {
 
       <div className="guide-box bg-accent-custom p-3 rounded-[4px] space-y-1.5">
         <h4 className="text-sm font-bold text-secondary">Top Pick Under $200</h4>
-        <p className="text-[12px] text-[#666666] leading-relaxed">The <strong>Bestqool Pro30</strong> offers the best balance of cooling fans, irradiance, and price efficiency.</p>
+        <p className="text-[12px] text-[#666666] leading-relaxed">The <strong>Bestqool Pro300</strong> offers the best balance of cooling fans, irradiance, and price efficiency.</p>
       </div>
     </aside>
   );

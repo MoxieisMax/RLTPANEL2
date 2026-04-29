@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export default function Hero() {
@@ -16,12 +16,12 @@ export default function Hero() {
               We cut through the marketing hype to bring you lab-tested data, honest comparisons, and technical guides for high-performance recovery tech.
             </p>
             <div className="flex gap-4 pt-4">
-              <a href="#featured" className="bg-primary text-white px-6 py-3 rounded-[4px] font-bold text-sm uppercase tracking-wide hover:bg-secondary transition-all">
+              <Link to="/money/best-red-light-therapy-panels-under-300" className="bg-primary text-white px-6 py-3 rounded-[4px] font-bold text-sm uppercase tracking-wide hover:bg-secondary transition-all">
                 View Best Picks
-              </a>
-              <a href="/guides" className="border border-border-custom text-secondary px-6 py-3 rounded-[4px] font-bold text-sm uppercase tracking-wide hover:bg-bg-custom transition-all">
+              </Link>
+              <Link to="/guides" className="border border-border-custom text-secondary px-6 py-3 rounded-[4px] font-bold text-sm uppercase tracking-wide hover:bg-bg-custom transition-all">
                 Learn the Tech
-              </a>
+              </Link>
             </div>
           </div>
           <div className="hidden lg:block relative">
